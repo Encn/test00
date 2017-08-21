@@ -1,13 +1,19 @@
 # pm
 
-> product-management（产品管理项目）
+> product-management
 
-> 当前版本1.0.0
-
-## Build Setup
+> version1.0.0
 
 
-``` bash
+## you should
+
+```bash
+git clone git@git.corpautohome.com:GP_RD_FE_SOU/PM.git
+
+cd PM
+
+git checkout -b yourname
+
 # install dependencies
 npm install
 
