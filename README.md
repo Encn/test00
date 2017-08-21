@@ -1,9 +1,11 @@
 # pm
 
 > product-management（产品管理项目）
+
 > 当前版本1.0.0
 
 ## Build Setup
+
 
 ``` bash
 # install dependencies
@@ -19,10 +21,15 @@ npm run build
 npm run build --report
 ```
 
+
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
+
 ### 所有源文件在src目录下
+
+
 ```
-所有源文件在src目录下
+src
 │  App.vue     // 主页面模版
 │  main.js     // 主页面js
 │
@@ -52,6 +59,7 @@ For detailed explanation on how things work, checkout the [guide](http://vuejs-t
     └─module   // 组件存放区域
             header.vue
 ```
+
 
 前端框架： Vue2.3.3
 自动化构建工具：webpack2.6.1
