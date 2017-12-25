@@ -1,5 +1,5 @@
 @charset "utf-8";
-body, 
+body,
 div,dl,dt,dd,ul,ol,li,
 h1,h2,h3,h4,h5,h6,pre,code,
 form,fieldset,legend,textarea,
@@ -8,9 +8,9 @@ footer,header,hgroup,menu,nav,section{margin:0;padding:0;}
 header,footer,section,article,aside,nav,hgroup,address,figure,figcaption,menu,details{display:block;}/*html5*/
 table{border-collapse:collapse;border-spacing:0;}
 input,h1,h2,h3,h4,h5,h6,select,button,textarea{font-weight: normal;}
-address,caption,cite,code,dfn,em,strong,th,var, i,pre{ font-weight: normal; font-style: normal;} 
+address,caption,cite,code,dfn,em,strong,th,var, i,pre{ font-weight: normal; font-style: normal;}
 input,textarea,select{margin:0px;padding:0px;outline:none;border:none;-webkit-tap-highlight-color: rgba(0,0,0,0); }
-// input[type="text"],textarea,select{margin:0px;padding:0px;}
+ /* input[type="text"],textarea,select{margin:0px;padding:0px;} */
 a{text-decoration: none;outline: none;}
 i,em{font-style:normal;}
 img,fieldset{border:none;}
@@ -27,9 +27,9 @@ input{font-family: "STHeitiSC-Light", "STHeiti", "Microsoft Yahei", Arial;}
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button{
     -webkit-appearance: none !important;
-    margin: 0; 
+    margin: 0;
 }
-body {font-family: "Microsoft YaHei";font-size: 14px;color: #333;line-height:1;background: #f8f8f8;}
+body {font-family: "Microsoft YaHei";font-size: 14px;}
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -50,10 +50,35 @@ table {
   -webkit-text-stroke-width: 0.2px;
   -moz-osx-font-smoothing: grayscale;
 }
-
-::input-placeholder {
-　color: #999!important;
+input::-webkit-input-placeholder { /* WebKit browsers */
+  color:#999;
+  font-size: 15px;
 }
-::-webkit-input-placeholder {
-　color: #999!important;
+input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  color:#999;
+  font-size: 15px;
+}
+input::-moz-placeholder { /* Mozilla Firefox 19+ */
+  color:#999;
+  font-size: 15px;
+}
+input:-ms-input-placeholder { /* Internet Explorer 10+ */
+  color:#999;
+  font-size: 15px;
+}
+textarea::-webkit-input-placeholder { /* WebKit browsers */
+  color:#999;
+  font-size: 15px;
+}
+textarea:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  color:#999;
+  font-size: 15px;
+}
+textarea::-moz-placeholder { /* Mozilla Firefox 19+ */
+  color:#999;
+  font-size: 15px;
+}
+textarea:-ms-textarea-placeholder { /* Internet Explorer 10+ */
+  color:#999;
+  font-size: 15px;
 }

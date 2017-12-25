@@ -1,4 +1,4 @@
-# pm
+<!-- # pm
 
 > product-management
 
@@ -69,4 +69,4 @@ src
 
 前端框架： Vue2.3.3
 
-自动化构建工具：webpack2.6.1
+自动化构建工具：webpack2.6.1 -->
